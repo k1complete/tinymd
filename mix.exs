@@ -19,8 +19,8 @@ defmodule Tinymd.Mixfile do
 
   defp deps do
     [ { :ranch, %r(.*), github: "extend/ranch" },
-#      { :cowboy, %r(.*), github: "extend/cowboy" },
-      { :cowboy, "0.7.0", github: "extend/cowboy" },
+      { :cowboy, %r(.*), github: "extend/cowboy" },
+#      { :cowboy, %r(0.8.0), github: "extend/cowboy", tags: "0.8.0" },
       { :dynamo, %r(.*), github: "elixir-lang/dynamo" } ]
   end
 end
