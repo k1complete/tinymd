@@ -18,4 +18,4 @@ config :dynamo,
   exceptions_handler: Exceptions.Debug
 
 # Run on port 4000 for development
-config :server, port: System.get_env("PORT") || 4000
+config :server, port: 4000

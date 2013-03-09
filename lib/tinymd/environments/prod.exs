@@ -4,7 +4,7 @@ config :dynamo,
   reload_modules: false
 
 config :server,
-  port: binary_to_integer(System.get_env("PORT")) || 8080,
+  port: 8080,
   acceptors: 100,
   max_connections: 10000
 
