@@ -18,9 +18,9 @@ defmodule Tinymd.Mixfile do
   end
 
   defp deps do
-    [ { :ranch, %r(.*), github: "extend/ranch" },
-      { :cowboy, %r(.*), github: "extend/cowboy" },
-#      { :cowboy, %r(0.8.0), github: "extend/cowboy", tags: "0.8.0" },
-      { :dynamo, %r(.*), github: "elixir-lang/dynamo" } ]
+    [ { :ranch, %r(.*), github: "extend/ranch", ref: "c3133bfbc324fbb9ac26ab689cd41dc362ad7c05" },
+      { :cowboy, %r(.*), github: "extend/cowboy", ref: "a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298" },
+      { :dynamo, %r(.*), github: "elixir-lang/dynamo" },
+      { :mix_task_heroku, %r(.*), github: "k1complete/mix_task_heroku" } ]
   end
 end
