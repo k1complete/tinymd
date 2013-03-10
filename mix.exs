@@ -23,6 +23,5 @@ defmodule Tinymd.Mixfile do
       { :dynamo, %r(.*), github: "elixir-lang/dynamo" },
       { :markdown, %r(.*), github: "erlware/erlmarkdown", compile: "sh -c 'mkdir -p ebin; erlc -o ebin src/markdown.erl ; cp src/markdown.app.src ebin/markdown.app' "},
       { :mix_task_heroku, %r(.*), github: "k1complete/mix_task_heroku" } ]
-
   end
 end
