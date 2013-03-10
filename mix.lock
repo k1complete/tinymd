@@ -1,0 +1,6 @@
+[ "cowboy": {:git,"https://github.com/extend/cowboy.git","a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298",[ref: "a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298"]},
+  "dynamo": {:git,"https://github.com/elixir-lang/dynamo.git","e6c2831e874ea9cde1c5366671545f80422cebbe",[]},
+  "markdown": {:git,"https://github.com/erlware/erlmarkdown.git","22298f62b973d1aa1c344c1b23a22ce66fad1659",[]},
+  "mimetypes": {:git,"https://github.com/spawngrid/mimetypes.git","0800544bbb684616651a2a1b30aa260132d17d37",[]},
+  "mix_task_heroku": {:git,"https://github.com/k1complete/mix_task_heroku.git","e5bc34df62c4d13670cf2b9d67540b86d8d74719",[]},
+  "ranch": {:git,"https://github.com/extend/ranch.git","c3133bfbc324fbb9ac26ab689cd41dc362ad7c05",[ref: "c3133bfbc324fbb9ac26ab689cd41dc362ad7c05"]} ]
