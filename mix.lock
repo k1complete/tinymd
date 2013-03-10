@@ -2,5 +2,5 @@
   "dynamo": {:git,"https://github.com/elixir-lang/dynamo.git","e6c2831e874ea9cde1c5366671545f80422cebbe",[]},
   "markdown": {:git,"https://github.com/erlware/erlmarkdown.git","22298f62b973d1aa1c344c1b23a22ce66fad1659",[]},
   "mimetypes": {:git,"https://github.com/spawngrid/mimetypes.git","507823a0e6a5f6654c61945152a7ba88bd55ad0e",[]},
-  "mix_task_heroku": {:git,"https://github.com/k1complete/mix_task_heroku.git","86b5e0ddd500af5b9cdd8d5f02e9f91e0ce18e5e",[]},
-  "ranch": {:git,"https://github.com/extend/ranch.git","c3133bfbc324fbb9ac26ab689cd41dc362ad7c05",[ref: "c3133bfbc324fbb9ac26ab689cd41dc362ad7c05"]} ]
+  "mix_task_heroku": {:git,"https://github.com/k1complete/mix_task_heroku.git","8e55b08db048898ffe1cd756358163603661a20f",[]},
+  "ranch": {:git,"https://github.com/extend/ranch.git","de9b6f7a707efd308a6d6535d8296c15ea277308",[tag: "0.4.0"]} ]
