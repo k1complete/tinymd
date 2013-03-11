@@ -17,7 +17,7 @@ defmodule Tinymd.Mixfile do
       mod: { Tinymd, [] } ]
   end
   defp deps do
-    [ { :ranch, %r(.*), github: "extend/ranch", tag: "0.4.0" },
+    [ { :ranch, %r(.*), github: "extend/ranch", ref: "a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298" },
       { :cowboy, %r(.*), github: "extend/cowboy", ref: "a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298" },
       { :dynamo, %r(.*), github: "elixir-lang/dynamo" },
       { :markdown, %r(.*), github: "erlware/erlmarkdown", compile: "sh -c 'mkdir -p ebin; erlc -o ebin src/markdown.erl ; cp src/markdown.app.src ebin/markdown.app' "},
