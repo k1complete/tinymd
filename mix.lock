@@ -3,4 +3,4 @@
   "markdown": {:git,"https://github.com/erlware/erlmarkdown.git","22298f62b973d1aa1c344c1b23a22ce66fad1659",[]},
   "mimetypes": {:git,"https://github.com/spawngrid/mimetypes.git","507823a0e6a5f6654c61945152a7ba88bd55ad0e",[]},
   "mix_task_heroku": {:git,"https://github.com/k1complete/mix_task_heroku.git","b7b7c55764f00ca99cd3114e3c1a6cf157536e6b",[]},
-  "ranch": {:git,"https://github.com/extend/ranch.git","809a12fdbe5ce355b06bcf197008e1b4e8ea9e21",[ref: "a3049f7100bb9f3cbaef1db6bf6cdeb750d9e298"]} ]
+  "ranch": {:git,"https://github.com/extend/ranch.git","c3133bfbc324fbb9ac26ab689cd41dc362ad7c05",[ref: "c3133bfbc324fbb9ac26ab689cd41dc362ad7c05"]} ]
