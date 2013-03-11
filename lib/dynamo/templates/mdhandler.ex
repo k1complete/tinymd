@@ -3,13 +3,11 @@ defmodule Dynamo.Templates.MDHandler do
   @behaviour Dynamo.Templates.Handler
 
   def compile(Dynamo.Template[identifier: identifier], source, locals) do
-    :io.format("compile ~p ~p ~n", [identifier, source])
     vars = vars(locals)
     args = [{ :assigns, [], nil}|vars]
     match = match(args)
     source = :markdown.conv_utf8(source)
-#    source = EEx.compile_string(source, file: idnetifier)
-    source = EEx.compile_string(source)
+    source = EEx.compile_string(source, file: identifier)
     {
       args, quote do
 	unquote_splicing(match)
@@ -18,7 +16,6 @@ defmodule Dynamo.Templates.MDHandler do
       end }
   end
   def render(module, function, locals, assigns) do
-    :io.format("render ~p ~p ~n", [module, function])
     apply module, function, [assigns|Keyword.values(locals)]
   end
   defp vars(locals) do

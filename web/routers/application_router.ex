@@ -17,20 +17,18 @@ defmodule ApplicationRouter do
 #    render conn, "index.html"
 #  end
   get "/md" do
-    output2 "index2.html", conn
+    output "index2.html", conn
   end
   get "/md/:page" do
-    IO.puts "test"
     conn = conn.assign(:title, page)
-    output2 page, conn
+    output page, conn
   end
   match ["md" |tail], via: :get do
-    :io.format "test-match ~p~n", [tail]
     page = Path.join tail
-    output2 page, conn
+    output page, conn
     #render conn, "error.html", [reason: :notfoundroute, page: tail]
   end
-  defp output2(page, conn) do
+  defp output(page, conn) do
     try do
       render conn, page
     rescue
