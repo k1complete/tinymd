@@ -11,3 +11,4 @@ Resources:
 * [Dynamo source code](https://github.com/elixir-lang/dynamo)
 * [Dynamo guides](https://github.com/elixir-lang/dynamo#learn-more)
 * [Dynamo docs](http://elixir-lang.org/docs/dynamo)
+* [Heroku runner for dynamo](http://github.com/k1complete/mix_task_heroku)
