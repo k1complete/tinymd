@@ -4,7 +4,9 @@ Tinymd
 # install
 
 <pre>
-    mix get.deps
+    git clone git://github.com/k1complete/tinymd.git
+    cd tinymd
+    mix deps.get
     mix compile
     # create your contents...
     # emacs web/template/foo.html.md
@@ -24,7 +26,7 @@ $PORTを使ってlistenするようにします。
 * ranchのバージョンは最新だとry
 * dynamoのmix serverだとherokuのPORT環境変数を使ってのlistenが
 出来無い。なのでmix_task_herokuを作成するはめに。
-* erlmarkdownはUpper256なUTF-8だとbad argになる(pull requestした)
+* erlmarkdownはUpper256なUTF-8だとbad argになる(なのでpull requestした)
 
 # 良かった点
 * mix.lockがなんのためにあるのか判った
