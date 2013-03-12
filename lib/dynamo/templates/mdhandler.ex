@@ -6,8 +6,8 @@ defmodule Dynamo.Templates.MDHandler do
     vars = vars(locals)
     args = [{ :assigns, [], nil}|vars]
     match = match(args)
-    source = :markdown.conv_utf8(source)
-    source = EEx.compile_string(source, file: identifier)
+    source = list_to_binary(:markdown.conv_utf8(binary_to_list(source)))
+#    source = EEx.compile_string(source, file: identifier)
     {
       args, quote do
 	unquote_splicing(match)
