@@ -5,6 +5,7 @@ This is a project built with Elixir that uses Dynamo to serve web requests.
 
 Resources:
 
+
 * [Elixir website](http://elixir-lang.org/)
 * [Elixir getting started guide](http://elixir-lang.org/getting_started/1.html)
 * [Elixir docs](http://elixir-lang.org/docs)
